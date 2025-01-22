@@ -32,8 +32,8 @@ def implied_volatility(price, S, K, T, r, q=0):
 
 # Sidebar Inputs
 st.sidebar.header('Model Parameters')
-risk_free_rate = st.sidebar.number_input('Risk-Free Rate', value=0.015, format="%.4f")
-dividend_yield = st.sidebar.number_input('Dividend Yield', value=0.013, format="%.4f")
+risk_free_rate = st.sidebar.number_input('Risk-Free Rate', value=0.050, format="%.4f")
+dividend_yield = st.sidebar.number_input('Dividend Yield', value=0.030, format="%.4f")
 
 st.sidebar.header('Visualization Parameters')
 y_axis_option = st.sidebar.selectbox('Select Y-axis:', ['Strike Price ($)', 'Moneyness'])
