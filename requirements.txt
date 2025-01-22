@@ -5,7 +5,3 @@ numpy
 datetime
 scipy
 plotly
-sqlite3
-pickle
-database
-sqlalchemy
